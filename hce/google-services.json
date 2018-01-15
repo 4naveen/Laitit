@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "66230469959",
+    "firebase_url": "https://lateit-181408.firebaseio.com",
+    "project_id": "lateit-181408",
+    "storage_bucket": "lateit-181408.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:66230469959:android:3fed5b90884035fa",
+        "android_client_info": {
+          "package_name": "com.project.laitit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "66230469959-1mfld4fhnf46trn49ca7e9f3nk01gdh7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.laitit",
+            "certificate_hash": "ee976318eb5720d92fe39f0d82389943aec452c3"
+          }
+        },
+        {
+          "client_id": "66230469959-8bjjr5hshogbpd7d118o170m8rqo314o.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "66230469959-tnps7b7q772ejgd4r2sh79g4b87dmb6i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLfP9d5x0XIRAlCbX4M8EMqVRhqz0mbRI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "66230469959-8bjjr5hshogbpd7d118o170m8rqo314o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/enercy_img"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/divider_line" />
+
+        <TextView
+            android:id="@+id/about_app"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/link_padding"
+            android:textSize="@dimen/link_font_size"
+            android:textColor="@color/textColorBlack"
+            android:onClick="linkClickEvent"
+            android:text="About App"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/divider_line" />
+
+        <TextView
+            android:id="@+id/about_event"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/link_padding"
+            android:textSize="@dimen/link_font_size"
+            android:textColor="@color/textColorBlack"
+            android:onClick="linkClickEvent"
+            android:text="About Event"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/divider_line" />
+
+        <TextView
+            android:id="@+id/welcome_billing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/link_padding"
+            android:textSize="@dimen/link_font_size"
+            android:textColor="@color/textColorBlack"
+            android:onClick="linkClickEvent"
+            android:text="Welcome to Billing"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/divider_line" />
+
+        <TextView
+            android:id="@+id/late_it_sponsors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/link_padding"
+            android:textSize="@dimen/link_font_size"
+            android:textColor="@color/textColorBlack"
+            android:onClick="linkClickEvent"
+            android:text="LaitIt Sponsors"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/divider_line" />
+
+        <TextView
+            android:id="@+id/hotel_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/link_padding"
+            android:textSize="@dimen/link_font_size"
+            android:textColor="@color/textColorBlack"
+            android:onClick="linkClickEvent"
+            android:text="Hotel Layout"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/divider_line" />
+
+    </LinearLayout>
+
+</RelativeLayout>

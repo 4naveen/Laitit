@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_nofications"
+            android:icon="@mipmap/ic_event_black_24dp"
+            android:title="Notificaciones" />
+
+       <!--  <item
+            android:id="@+id/nav_ponentes"
+            android:icon="@mipmap/ic_supervisor_account_black_24dp"
+            android:title="Ponentes" />
+        <item
+            android:id="@+id/nav_location"
+            android:icon="@mipmap/ic_location_on_black_24dp"
+            android:title="Localizacion" />-->
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@mipmap/ic_info_black_24dp"
+            android:title="Info" />
+    </group>
+
+<!--
+        <item
+            android:title="Conference Time Zone:" />
+        <item
+            android:title="MDT(Mountaing Daylight Time) UTC/GMT -6 hours" /> -->
+
+
+
+
+  <!-- <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item> -->
+
+</menu>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorError">#FF4081</color>
+    <color name="textColorWhite">#FFF</color>
+    <color name="textColorBlack">#222</color>
+    <color name="divider_line">#ccc</color>
+    <color name="webview_bg">#fff</color>
+    <color name="textColorBlue">#4598ff</color>
+    <color name="background_color">#fff</color>
+</resources>

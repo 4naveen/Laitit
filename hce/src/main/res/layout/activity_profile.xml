@@ -1,0 +1,139 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:background="@drawable/background"
+    tools:context="com.project.laitit.Profile">
+
+
+
+    <ScrollView
+        android:id="@+id/login_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/email_login_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/logo_eoi"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3"
+                android:padding="5dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/textColorWhite"
+                    android:textSize="@dimen/lable_font_size"
+                    android:textStyle="bold"
+                    android:paddingTop="20dp"
+                    android:text="Nombre"/>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="wrap_content"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/first_name"
+                        android:layout_width="220dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:textColor="@color/textColorBlack"
+                        android:textSize="@dimen/lable_edit_size"
+                        android:background="@drawable/squire_border_edittext"
+                        android:padding="10dp"
+                        android:maxLines="1" />
+
+                </android.support.design.widget.TextInputLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/textColorWhite"
+                    android:textSize="@dimen/lable_font_size"
+                    android:textStyle="bold"
+                    android:paddingTop="20dp"
+                    android:text="Apellidos"/>
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="wrap_content"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/last_name"
+                        android:layout_width="220dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:textColor="@color/textColorBlack"
+                        android:textSize="@dimen/lable_edit_size"
+                        android:background="@drawable/squire_border_edittext"
+                        android:padding="10dp"
+                        android:maxLines="1" />
+
+                </android.support.design.widget.TextInputLayout>
+
+
+            </LinearLayout>
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="5dp">
+            <ProgressBar
+                android:id="@+id/edit_process"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:visibility="gone" />
+
+            <ImageButton
+                android:id="@+id/edit_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/go_icon"
+                android:background="@null"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="40dp"/>
+</FrameLayout>
+        </LinearLayout>
+
+
+
+    </ScrollView>
+</LinearLayout>

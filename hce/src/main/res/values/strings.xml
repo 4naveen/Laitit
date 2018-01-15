@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">LaitIt</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="google_api_key_new">AIzaSyDAhjNxzakseoWY2LhST6vkOPXU6CCOImk</string>
+
+<!--
+    previous facebook api credentials
+-->
+   <!-- <string name="facebook_app_id">489550251125304</string>
+    <string name="fb_login_protocol_scheme">fb489550251125304</string>-->
+
+
+    <string name="facebook_app_id">1455597067870242</string>
+    <string name="fb_login_protocol_scheme">fb1455597067870242</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Sign In</string>
+
+    <string name="discover_nearby_devices">Discover nearby devices</string>
+    <string name="share_device_information">Share device information</string>
+    <string name="common_signin_button_text_long">Discover nearby devices</string>
+
+    <!-- Strings related to login -->
+    <string name="first_name">Nombre</string>
+    <string name="last_name">Apellidos</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_sample">Sample</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
